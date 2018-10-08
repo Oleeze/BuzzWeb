@@ -1,18 +1,12 @@
-import React, { Component } from 'react'
-
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 class Home extends Component {
-
-  hello(){
-    console.log('Hello bois')
-  }
-
   render() {
     return (
       <div>
-        <button onClick={() => this.hello()}>My home page</button>
-        <p>Some content</p>
+        <Link to="/connect">My home page</Link>
       </div>
-    )
+    );
   }
 }
 

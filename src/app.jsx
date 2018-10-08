@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <Switch>
-        <Route path="/" render={props => <Home {...props} />} />
+        <Route exact path="/" render={props => <Home {...props} />} />
         <Route path="/thanks" render={props => <Thanks {...props} />} />
         <Route path="/connect" render={props => <Contact {...props} />} />
       </Switch>

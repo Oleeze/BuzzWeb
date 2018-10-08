@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(147, 159, 170);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden !important;
+  font: 75%/150% "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.col-sm-6 {
+  width: 40%;
+}
+
+.form-group:not(.box) {
+  margin-bottom: 20px;
+}
+
+.full-width {
+  width: 100% !important;
+}
+
+input.input-text,
+select,
+textarea,
+.customSelect {
+  background: #edf6ff;
+  border: none;
+  line-height: normal;
+}
+
+input.input-text,
+textarea,
+.customSelect,
+select {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 42px;
+  font-size: 1.0833em;
+}
+
+input.input-text,
+textarea {
+  -moz-transition: border-color 0.15s ease-in-out 0s,
+    box-shadow 0.15s ease-in-out 0s;
+  -o-transition: border-color 0.15s ease-in-out 0s,
+    box-shadow 0.15s ease-in-out 0s;
+  -webkit-transition: border-color 0.15s ease-in-out 0s,
+    box-shadow 0.15s ease-in-out 0s;
+  -ms-transition: border-color 0.15s ease-in-out 0s,
+    box-shadow 0.15s ease-in-out 0s;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+  border: 1px solid transparent;
+  cursor: text;
+}
+
+input.input-text:focus,
+textarea:focus {
+  box-shadow: rgba(255, 102, 0, 0.6) 0px 0px 8px;
+  outline: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255, 102, 0);
+  border-image: initial;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.btn {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9167em;
+  height: 42px;
+  line-height: 42px;
+  margin-right: 5px;
+  box-shadow: none;
+  vertical-align: baseline;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  padding: 0px 30px;
+  background: rgb(255, 102, 0);
+  border-radius: 21px;
+  transition: all 0.2s ease 0s;
+}
