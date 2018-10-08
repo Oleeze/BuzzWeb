@@ -1,4 +1,3 @@
 bower_components
 /node_modules
-/public/dist/bundle.js
-/public/dist/css
+/build
