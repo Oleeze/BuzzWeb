@@ -25,6 +25,8 @@ class Contact extends Component {
                 type="text"
                 placeholder="First Name"
                 className="input-text full-width"
+                minLength="2"
+                required
               />
             </div>
             <div className="form-group">
@@ -35,6 +37,8 @@ class Contact extends Component {
                 type="text"
                 placeholder="Last Name"
                 className="input-text full-width"
+                minLength="2"
+                required
               />
             </div>
             <div className="form-group">
@@ -45,6 +49,7 @@ class Contact extends Component {
                 type="text"
                 placeholder="Organization"
                 className="input-text full-width"
+                required
               />
             </div>
             <div className="form-group">
@@ -52,9 +57,10 @@ class Contact extends Component {
               <input
                 id="insightly_Email"
                 name="email"
-                type="text"
+                type="email"
                 placeholder="Email"
                 className="input-text full-width"
+                required
               />
             </div>
             <div className="form-group">
@@ -62,8 +68,8 @@ class Contact extends Component {
               <input
                 id="insightly_Phone"
                 name="phone"
-                type="text"
-                placeholder="Phone"
+                type="tel"
+                placeholder="123-456-7890"
                 className="input-text full-width"
               />
             </div>
